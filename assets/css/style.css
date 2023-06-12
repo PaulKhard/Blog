@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Heebo:regular,500,700,900&display=swap);
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Heebo;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 157px;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    height: 84px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+.menu_list li {
+    margin-left: 33px;
+}
+
+.menu_link {
+    text-decoration: none;
+    
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a:hover {
+    transition: 0.3s;
+    color: #FF6464;
+}
+
+.resume {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 438px;
+}
+
+
+.title_text {
+    max-width: 438px;
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #21243D;
+}
+
+.par_text {
+    max-width: 497px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #21243D;
+}
+
+.img_box {
+    width: 243px;
+    height: 243px;
+}
+
+.photo {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
