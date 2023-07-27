@@ -58,6 +58,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     height: 438px;
+    flex-wrap: wrap;
 }
 
 
@@ -86,4 +87,33 @@ a:hover {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.button {
+    display: flex;
+}
+
+.butt_res {
+    background-color: #FF6464;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+@media screen and (max-width: 856px) {
+    .header {
+        display: flex;
+        
+        justify-content: center;
+    }
+
+    .resume {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
 }
