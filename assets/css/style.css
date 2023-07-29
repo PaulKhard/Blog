@@ -48,7 +48,7 @@ body {
     font-weight: 700;
 }
 
-a:hover {
+.menu_link:hover {
     transition: 0.3s;
     color: #FF6464;
 }
@@ -90,11 +90,15 @@ a:hover {
 
 .button {
     display: flex;
+    align-items: center;
+    background-color: #FF6464;
 }
 
-.butt_res {
-    background-color: #FF6464;
+.butt_link {
+    display: flex;
+    text-decoration: none;
     border: none;
+    margin: 17px 20px;
     border-radius: 2px;
     font-size: 20px;
     color: #FFF;
@@ -107,8 +111,19 @@ a:hover {
     }
 
     .menu_list {
+        width: 200px;
+        justify-content: space-between;
         margin: 0;
         padding: 0;
+    }
+
+    .menu_list li{
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu_link {
+        display: flex;
     }
 
     .resume {
@@ -123,6 +138,16 @@ a:hover {
 
     .title {
         order: 2;
+    }
+
+    .title_text {
+        text-align: center;
+        max-width: 320px;
+    }
+
+    .par_text {
+        text-align: center;
+        max-width: 320px;
     }
 
     .button {
