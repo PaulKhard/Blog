@@ -8,7 +8,7 @@ body {
     font-family: Heebo;
     font-size: 14px;
     line-height: 21px;
-    color: #000;
+    color: #21243D;
     background-color: #ffffff;
 }
 
@@ -97,7 +97,7 @@ body {
     }
 }
 
-.title {
+.title--h1 {
     max-width: 438px;
     font-size: 44px;
     line-height: 60px;
@@ -112,6 +112,7 @@ body {
 }
 
 .par{
+    margin: 0 auto;
     max-width: 497px;
     font-size: 16px;
     font-weight: normal;
@@ -148,6 +149,7 @@ body {
     justify-content: center;
     min-width: 200px;
     min-height: 50px;
+    margin: 47px 0;
     border: none;
     border-radius: 2px;
     font-size: 20px;
@@ -159,4 +161,26 @@ body {
         order: 3;
     }
 
+}
+
+.section.recentPosts {
+    background-color: #EDF7FA;
+}
+
+.recentPosts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+@media (max-width: 856px) {
+    
+}
+
+.title--h2 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.btn {
+    
 }
